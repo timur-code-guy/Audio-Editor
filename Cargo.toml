@@ -1,0 +1,14 @@
+[package]
+name = "audio-tagger"
+version = "1.0.0"
+edition = "2021"
+description = "Audio tag editor"
+
+[dependencies]
+slint = "1"
+lofty = "0.25"
+rfd = "0.15"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "gif", "bmp", "webp"] }
+
+[build-dependencies]
+slint-build = "1"
