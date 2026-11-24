@@ -2,6 +2,14 @@
 
 An audio tag editor built with Rust and Slint. Edit metadata and cover art for MP3, FLAC, M4A, OGG, Opus, WAV, AIFF, APE, MPC, and WavPack files.
 
+## Build
+
+```sh
+cargo build --release
+```
+
+Binary: `target/release/audio-tagger.exe`
+
 ## License
 
 MIT License
